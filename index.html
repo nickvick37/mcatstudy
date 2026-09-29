@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCAT Study Program</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%235aa9ff%22/><text x=%2216%22 y=%2222%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22%2308111f%22 font-family=%22sans-serif%22 font-weight=%22bold%22>M</text></svg>" />
+</head>
+<body>
+  <div id="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <a href="#/dashboard" class="brand-link">
+          <span class="brand-mark">MCAT</span>
+          <span class="brand-sub">Study Program</span>
+        </a>
+      </div>
+      <nav class="topnav">
+        <a href="#/dashboard" data-nav="dashboard">Dashboard</a>
+        <a href="#/section/bio-biochem" data-nav="bio-biochem">Bio/Biochem</a>
+        <a href="#/section/chem-physics" data-nav="chem-physics">Chem/Physics</a>
+        <a href="#/section/psych-soc" data-nav="psych-soc">Psych/Soc</a>
+        <a href="#/section/cars" data-nav="cars">CARS</a>
+        <a href="#/practice" data-nav="practice">Smart Practice</a>
+      </nav>
+    </header>
+    <main id="view"></main>
+    <footer class="app-footer">
+      <p>
+        Lesson summaries are original content written for this app, covering the concepts in the
+        official AAMC MCAT content outline. Practice questions are original and not taken from any
+        real exam. See <a href="#/about">About &amp; Sources</a> for details.
+      </p>
+    </footer>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
